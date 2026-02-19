@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="window.location.href='index.html'" class="theme-toggle">⬅ Back</button>
+
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+
+        <form action="https://formsubmit.co/vaibhaviv900@gmail.com@gmail.com" method="POST">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Redirect After Submit -->
+            <input type="hidden" name="_next" value="https://vaibhavi02-hub.github.io/thankyou.html">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
